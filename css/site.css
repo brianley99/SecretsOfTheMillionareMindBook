@@ -1,0 +1,57 @@
+:root {
+    --rich-dark-blue: #051D27ff;
+    --rich-cyan: #016766ff;
+    --rich-blue: #012D40ff;
+    --rich-light-blue: #013C50ff;
+    --rich-green: #A2B9A8ff;
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+
+#intro {
+    background-image: url("/img/pexels-benjamin-suter-3617500.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/abstract-geometric\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-onbsm.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 1rem;
+}
+
+main {
+    background-image: url("/img/pexels-benjamin-suter-3617500.jpg");
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--rich-dark-blue);
+}
+
+.bg-glass:hover {
+    color: var(--rich-green);
+}
+
+.bg-green {
+    background-color: var(--rich-green);
+    border-radius: 2rem;
+}
+
+.offcanvas-body a h4:hover {
+    color: burlywood;
+}
