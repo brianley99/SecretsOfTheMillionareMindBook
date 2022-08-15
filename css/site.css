@@ -1,9 +1,10 @@
 :root {
-    --rich-dark-blue: #051D27ff;
-    --rich-cyan: #016766ff;
-    --rich-blue: #012D40ff;
-    --rich-light-blue: #013C50ff;
-    --rich-green: #A2B9A8ff;
+    --cambridge-blue: #A2B9A8ff;
+    --mountain-meadow: #08BB8Dff;
+    --persian-green: #19AB98ff;
+    --viridian-green: rgb(0, 222, 222);
+    --dark-slate-gray: #2B5458ff;
+    --prussian-blue: #012E43ff;
 }
 
 main>.container {
@@ -13,28 +14,30 @@ main>.container {
 
 
 #intro {
-    background-image: url("/img/pexels-benjamin-suter-3617500.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#title {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/abstract-geometric\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-onbsm.jpg');
-    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/pexels-benjamin-suter-3617500.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: var(--viridian-green);
+    border-radius: 1rem;
+    height: 100vh;
+}
+
+#intro-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/pexels-benjamin-suter-3617500.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--viridian-green);
     border-radius: 1rem;
 }
 
 main {
-    background-image: url("/img/pexels-benjamin-suter-3617500.jpg");
+    background-color: var(--prussian-blue);
 }
 
 .bg-glass {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(106, 106, 106, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -44,14 +47,32 @@ main {
 }
 
 .bg-glass:hover {
-    color: var(--rich-green);
+    background: rgba(243, 243, 243, 0.2);
+    color: var(--mountain-meadow);
 }
 
-.bg-green {
-    background-color: var(--rich-green);
-    border-radius: 2rem;
+p {
+    color: var(--cambridge-blue);
 }
 
-.offcanvas-body a h4:hover {
-    color: burlywood;
+h2 {
+    color: var(--mountain-meadow);
+}
+
+.text-chapter {
+    text-decoration: none;
+    color: var(--cambridge-blue);
+}
+
+.text-chapter:hover {
+    color: var(--persian-green);
+}
+
+.btn-nav {
+    background-color: var(--prussian-blue);
+    color: var(--cambridge-blue);
+}
+
+.btn-nav:hover {
+    color: var(--mountain-meadow);
 }
