@@ -60,6 +60,11 @@ h2 {
     text-align: center;
 }
 
+h3, h4 {
+    color: var(--persian-green);
+    text-align: start;
+}
+
 
 .btn-nav {
     background-color: var(--prussian-blue);
@@ -77,6 +82,22 @@ h2 {
     text-align: center;
     color: var(--prussian-blue);
     margin: 15px;
+}
+
+.declaration {
+    background-color: var(--persian-green);
+    padding: 5%;
+    border-radius: .5rem;
+    color: var(--prussian-blue);
+    margin: 15px;
+}
+
+.declaration strong {
+    color: var(--prussian-blue);
+}
+
+.declaration p {
+    color: var(--dark-slate-gray);
 }
 
 a {
